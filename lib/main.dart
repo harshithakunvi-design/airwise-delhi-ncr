@@ -9,7 +9,7 @@ class DelhiAirApp extends StatelessWidget {
   const DelhiAirApp({super.key});
   @override
   Widget build(BuildContext context) => MaterialApp(
-        title: 'Delhi-NCR Air Intelligence',
+        title: 'KYRO',
         debugShowCheckedModeBanner: false,
         theme: ThemeData(
           colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF006D77)),
@@ -108,7 +108,7 @@ class _AirHomeState extends State<AirHome> {
 
   @override
   Widget build(BuildContext context) => Scaffold(
-        appBar: AppBar(title: const Text('AirWise • Delhi-NCR'), actions: [IconButton(onPressed: refresh, icon: const Icon(Icons.refresh), tooltip: 'Refresh live data')]),
+        appBar: AppBar(title: const Text('KYRO • Delhi-NCR'), actions: [IconButton(onPressed: refresh, icon: const Icon(Icons.refresh), tooltip: 'Refresh live data')]),
         body: FutureBuilder<AirSnapshot>(
           future: data,
           builder: (context, snap) {
@@ -134,9 +134,9 @@ class _Dashboard extends StatelessWidget {
         onPlace(selected);
       },
       child: ListView(padding: const EdgeInsets.all(16), children: [
-        Text('Breathe smarter today', style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold)),
+        Text('Forecast. Protect. Breathe.', style: Theme.of(context).textTheme.headlineSmall?.copyWith(fontWeight: FontWeight.bold)),
         const SizedBox(height: 4),
-        const Text('Live air-quality intelligence for safer daily decisions.'),
+        const Text('KYRO uses live weather and pollution intelligence for safer daily decisions.'),
         const SizedBox(height: 16),
         DropdownButtonFormField<Place>(value: selected, decoration: const InputDecoration(labelText: 'Location', border: OutlineInputBorder()), items: places.map((p) => DropdownMenuItem(value: p, child: Text(p.name))).toList(), onChanged: (p) { if (p != null) onPlace(p); }),
         const SizedBox(height: 16),
@@ -186,7 +186,7 @@ class _AirWiseAdvisorState extends State<AirWiseAdvisor> {
     child: Padding(
       padding: const EdgeInsets.all(16),
       child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        Row(children: [const CircleAvatar(child: Icon(Icons.auto_awesome)), const SizedBox(width: 10), Column(crossAxisAlignment: CrossAxisAlignment.start, children: [Text('Ask AirWise', style: Theme.of(context).textTheme.titleLarge), const Text('Live-data health advisor')])]),
+        Row(children: [const CircleAvatar(child: Icon(Icons.auto_awesome)), const SizedBox(width: 10), Column(crossAxisAlignment: CrossAxisAlignment.start, children: [Text('Ask KYRO', style: Theme.of(context).textTheme.titleLarge), const Text('Live-data health advisor')])]),
         const SizedBox(height: 12),
         Wrap(spacing: 8, runSpacing: 8, children: [
           for (final q in ['Can I go outside today?', 'Do I need a mask?', 'When will air be cleanest?'])

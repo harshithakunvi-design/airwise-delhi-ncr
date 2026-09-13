@@ -1,6 +1,6 @@
-# AirWise — Delhi-NCR Air Quality Intelligence
+# KYRO — AI-Driven Delhi-NCR Air Quality Intelligence
 
-AirWise helps Delhi-NCR residents make safer daily decisions using live weather and air-quality information. It combines current pollutant readings, a 72-hour outlook, weather context, health guidance, and a question-driven advisor.
+KYRO helps Delhi-NCR residents make safer daily decisions using live weather and air-quality information. It combines current pollutant readings, a 72-hour outlook, weather context, health guidance, and a question-driven advisor.
 
 ## Problem
 
@@ -8,7 +8,7 @@ Air-quality numbers alone do not answer the everyday question: “Can I go outsi
 
 ## Solution
 
-AirWise converts live PM2.5, PM10, NO₂, O₃, AQI, wind, humidity and temperature signals into clear advice. The in-app AirWise advisor answers practical questions such as outdoor suitability, mask use, and the cleaner forecast window.
+KYRO converts live PM2.5, PM10, NO₂, O₃, AQI, wind, humidity and temperature signals into clear advice. The in-app KYRO advisor answers practical questions such as outdoor suitability, mask use, and the cleaner forecast window.
 
 ## Real data, not simulation
 

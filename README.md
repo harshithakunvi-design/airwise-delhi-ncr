@@ -1,10 +1,10 @@
-# Delhi-NCR Air Quality Intelligence — Android
+# KYRO — Delhi-NCR Air Quality Intelligence
 
 This is a Flutter Android MVP using **only live provider data**. It needs no API key to run: weather and air-quality forecasts come from Open-Meteo. It deliberately does not generate placeholder AQI values.
 
 ## Included
 
-- AirWise product branding and a live-data personal advisor
+- KYRO product branding and a live-data personal advisor
 - Delhi, Noida, Gurugram, Ghaziabad and Faridabad selector
 - Current PM2.5, PM10, NO₂, O₃ and US AQI
 - Live 72-hour air-quality forecast chart
